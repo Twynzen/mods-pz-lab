@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<outfitManager>
+
+    <m_MaleOutfits>
+        <m_Name>HelmetDead</m_Name>
+        <m_Guid>d4588900-dea6-451e-ba96-eeb97644417a</m_Guid>
+        <m_Top>false</m_Top>
+        <m_Pants>false</m_Pants>
+        <m_AllowPantsHue>false</m_AllowPantsHue>
+        <m_AllowTopTint>false</m_AllowTopTint>
+        <m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+        <m_items>
+            <itemGUID>e1536038-33ae-4448-9fb2-9daac8bc253d</itemGUID>
+        </m_items>
+    </m_MaleOutfits>
+
+    <m_FemaleOutfits>
+        <m_Name>HelmetDead</m_Name>
+        <m_Guid>1b174f54-5c9d-494e-8655-5c9639eeea46</m_Guid>
+        <m_Top>false</m_Top>
+        <m_Pants>false</m_Pants>
+        <m_AllowPantsHue>false</m_AllowPantsHue>
+        <m_AllowTopTint>false</m_AllowTopTint>
+        <m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+        <m_items>
+            <itemGUID>e1536038-33ae-4448-9fb2-9daac8bc253d</itemGUID>
+        </m_items>
+    </m_FemaleOutfits>
+
+</outfitManager>

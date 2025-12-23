@@ -1,0 +1,22 @@
+module Base
+{
+    recipe Craft Helmet of Dead
+    {
+        MetalPipe,
+        BucketEmpty,
+        ElectronicsScrap,
+        Result:HelmetAsDead,
+        Time:30.0,
+        Category:Survivalist,
+    }
+
+    recipe Dismantle Helmet of Dead
+    {
+        HelmetOfDead,
+        Result:MetalPipe,
+        Result:BucketEmpty,
+        Result:ElectronicsScrap,
+        Time:15.0,
+        Category:Survivalist,
+    }
+}
