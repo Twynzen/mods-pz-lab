@@ -1,0 +1,19 @@
+module base
+{
+    item HelmetAsDead
+    {
+        DisplayCategory = Accessory,
+        Type = Clothing,
+        DisplayName = Helmet of Dead,
+        ClothingItem = ASS_HelmetOfDead,
+        BodyLocation = Hat,
+        Icon = HelmetOfDead,
+        CanHaveHoles = false,
+        BloodLocation = Head,
+        BiteDefense = 100,
+        ScratchDefense = 100,
+        Insulation = 0.25,
+        WaterResistance = 1,
+        WorldStaticModel = HelmetOfDead,
+    }
+}
