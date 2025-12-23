@@ -12,6 +12,11 @@ console.txt
 !media/**/*.png
 !media/**/*.jpg
 !media/**/*.jpeg
+!**/42/**/*.png
+!**/42/**/*.jpg
+!**/common/**/*.png
+!**/common/**/*.jpg
+!**/poster.png
 
 # Archivos de sistema
 .DS_Store

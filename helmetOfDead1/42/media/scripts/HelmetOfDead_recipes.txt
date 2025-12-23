@@ -1,0 +1,38 @@
+module Base
+{
+    /* B42 craftRecipe format */
+
+    craftRecipe CraftHelmetOfDead
+    {
+        item 1 Base.MetalPipe,
+        item 1 Base.BucketEmpty,
+        item 1 Base.ElectronicsScrap,
+
+        output Base.HelmetAsDead,
+
+        time 180,
+        category Survivalist,
+
+        skillRequired Electricity:2,
+    }
+
+    craftRecipe DismantleHelmetOfDead
+    {
+        item 1 Base.HelmetAsDead,
+
+        output Base.MetalPipe,
+
+        time 90,
+        category Survivalist,
+    }
+
+    /* Item para la llave de desactivacion */
+    item HelmetKey
+    {
+        DisplayCategory = Misc,
+        Type = Normal,
+        DisplayName = Helmet Key,
+        Icon = Key1,
+        Weight = 0.1,
+    }
+}

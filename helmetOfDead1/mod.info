@@ -1,4 +1,6 @@
 name=Helmet of Dead
 id=HelmetOfDead
-description=Un casco que empieza a pitar y eventualmente mata al usuario después de cierto tiempo.
+description=Un casco explosivo que empieza a pitar y eventualmente mata al usuario. Requiere una llave especial para desactivarlo.
 poster=poster.png
+icon=
+versionMin=42.0.0

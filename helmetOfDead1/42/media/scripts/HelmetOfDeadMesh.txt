@@ -1,0 +1,14 @@
+module Base
+{
+    model HelmetOfDead
+    {
+        mesh = Skinned/Clothes/HelmetOfDead,
+        texture = Clothes/HelmetOfDeadTexture,
+
+        attachments world
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+    }
+}
