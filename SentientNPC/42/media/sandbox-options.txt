@@ -1,0 +1,179 @@
+VERSION = 1,
+
+option SentientNPC.MaxNPCs
+{
+    type = integer,
+    min = 1,
+    max = 100,
+    default = 50,
+    page = SentientNPC,
+    translation = SNPC_MaxNPCs,
+}
+
+option SentientNPC.NPCEnabled
+{
+    type = boolean,
+    default = true,
+    page = SentientNPC,
+    translation = SNPC_NPCEnabled,
+}
+
+option SentientNPC.DebugMode
+{
+    type = boolean,
+    default = false,
+    page = SentientNPC,
+    translation = SNPC_DebugMode,
+}
+
+option SentientNPC.AIEnabled
+{
+    type = boolean,
+    default = true,
+    page = SentientNPC,
+    translation = SNPC_AIEnabled,
+}
+
+option SentientNPC.AIResponseTime
+{
+    type = integer,
+    min = 1000,
+    max = 10000,
+    default = 3000,
+    page = SentientNPC,
+    translation = SNPC_AIResponseTime,
+}
+
+option SentientNPC.AIRateLimit
+{
+    type = integer,
+    min = 1000,
+    max = 30000,
+    default = 5000,
+    page = SentientNPC,
+    translation = SNPC_AIRateLimit,
+}
+
+option SentientNPC.DetectPlayerRange
+{
+    type = integer,
+    min = 5,
+    max = 100,
+    default = 30,
+    page = SentientNPC,
+    translation = SNPC_DetectPlayerRange,
+}
+
+option SentientNPC.DetectZombieRange
+{
+    type = integer,
+    min = 5,
+    max = 50,
+    default = 20,
+    page = SentientNPC,
+    translation = SNPC_DetectZombieRange,
+}
+
+option SentientNPC.HearRange
+{
+    type = integer,
+    min = 5,
+    max = 50,
+    default = 10,
+    page = SentientNPC,
+    translation = SNPC_HearRange,
+}
+
+option SentientNPC.NPCHostile
+{
+    type = boolean,
+    default = false,
+    page = SentientNPC,
+    translation = SNPC_NPCHostile,
+}
+
+option SentientNPC.NPCCanDie
+{
+    type = boolean,
+    default = true,
+    page = SentientNPC,
+    translation = SNPC_NPCCanDie,
+}
+
+option SentientNPC.NPCHealthMultiplier
+{
+    type = double,
+    min = 0.5,
+    max = 5.0,
+    default = 1.0,
+    page = SentientNPC,
+    translation = SNPC_NPCHealthMultiplier,
+}
+
+option SentientNPC.NPCDamageMultiplier
+{
+    type = double,
+    min = 0.1,
+    max = 3.0,
+    default = 1.0,
+    page = SentientNPC,
+    translation = SNPC_NPCDamageMultiplier,
+}
+
+option SentientNPC.SpawnEnabled
+{
+    type = boolean,
+    default = false,
+    page = SentientNPC,
+    translation = SNPC_SpawnEnabled,
+}
+
+option SentientNPC.SpawnChance
+{
+    type = integer,
+    min = 0,
+    max = 100,
+    default = 10,
+    page = SentientNPC,
+    translation = SNPC_SpawnChance,
+}
+
+option SentientNPC.SpawnMinDistance
+{
+    type = integer,
+    min = 10,
+    max = 100,
+    default = 30,
+    page = SentientNPC,
+    translation = SNPC_SpawnMinDistance,
+}
+
+option SentientNPC.SpawnMaxDistance
+{
+    type = integer,
+    min = 30,
+    max = 200,
+    default = 60,
+    page = SentientNPC,
+    translation = SNPC_SpawnMaxDistance,
+}
+
+option SentientNPC.CullingDistance
+{
+    type = integer,
+    min = 50,
+    max = 500,
+    default = 100,
+    page = SentientNPC,
+    translation = SNPC_CullingDistance,
+}
+
+option SentientNPC.UpdateRate
+{
+    type = integer,
+    min = 50,
+    max = 500,
+    default = 100,
+    page = SentientNPC,
+    translation = SNPC_UpdateRate,
+}

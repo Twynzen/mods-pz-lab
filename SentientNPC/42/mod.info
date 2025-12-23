@@ -1,0 +1,9 @@
+name=SentientNPC
+id=SentientNPC
+description=Advanced NPC system with hybrid AI for Project Zomboid Build 42. NPCs can make autonomous decisions, maintain individual memories, and communicate dynamically.
+poster=poster.png
+modversion=0.1.0
+versionMin=42.0.0
+versionMax=43.0.0
+tags=Build 42;Multiplayer;Framework
+authors=SentientNPC Team
